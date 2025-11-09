@@ -149,3 +149,8 @@ StockPriceOptimizer-CG-Fibonacci/
 ## 🙏 Acknowledgements
 
 This work bridges the gap between theoretical optimization algorithms and their real-world application in quantitative finance. It demonstrates the efficiency, interpretability, and scalability of Conjugate Gradient methods in large-scale predictive modeling.
+
+## 📌 Note
+This repository contains our group project for the M.Sc. Data Science (Semester 3) course - MDTS4311 Optimization Techniques.
+The project domain (Economics & Finance) and optimization methods were pre-assigned, so our implementation focuses strictly on these methods.
+We designed a simple, interpretable pipeline to demonstrate concept-to-code mapping. While the current version has a few limitations, they will be addressed and improved in future iterations.
