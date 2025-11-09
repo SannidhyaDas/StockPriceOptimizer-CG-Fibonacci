@@ -134,6 +134,7 @@ StockPriceOptimizer-CG-Fibonacci/
 │   ├── MSFT_test_predictions.png
 │   ├── AAPL_test_predictions.png
 │   └── ...
+├── MDTS4311(2)_GR6.pptx     # Presented pptx file
 ├── README.md                # This file
 └── requirements.txt         # Python dependencies
 
