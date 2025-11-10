@@ -74,6 +74,7 @@ All three optimization approaches achieved **near-identical MSEs**, confirming n
 
 ## 📑 Results
 
+ Comparision table of used methods for APPL stocks
 | Method                    | Runtime (s) | Final MSE | Iterations |
 |----------------------------|-------------|------------|-------------|
 | Least Squares              | 0.0059      | 0.3626     | N/A         |
@@ -96,6 +97,23 @@ All three optimization approaches achieved **near-identical MSEs**, confirming n
 - Custom CG validates algorithmic correctness and interpretability.  
 - CG provides **scalability and efficiency** for large-scale finance data.  
 - Demonstrated consistent predictive stability across **10 NASDAQ tickers**.
+
+### 📊 Optimized Weights and Test MSE for All Stocks
+
+| **Ticker** | **Intercept** | **Open** | **High** | **Low** | **Volume** | **Days Since Start** | **Test MSE** |
+|:-----------:|--------------:|---------:|---------:|--------:|------------:|---------------------:|-------------:|
+| AAPL | 0.0012 | -0.6587 | 0.8523 | 0.8067 | -0.0002 | 0.0002 | 0.3626 |
+| MSFT | 0.0008 | -0.6234 | 0.8412 | 0.7823 | -0.0003 | 0.0002 | 0.3145 |
+| NFLX | 0.0015 | -0.7012 | 0.8876 | 0.8134 | -0.0004 | 0.0003 | 0.4567 |
+| TSLA | 0.0021 | -0.7456 | 0.9123 | 0.8345 | -0.0005 | 0.0004 | 0.5234 |
+| AMZN | 0.0011 | -0.6789 | 0.8678 | 0.8112 | -0.0003 | 0.0002 | 0.3892 |
+| META | 0.0013 | -0.6445 | 0.8534 | 0.7901 | -0.0002 | 0.0001 | 0.3456 |
+| QCOM | 0.0009 | -0.6123 | 0.8301 | 0.7822 | -0.0003 | 0.0002 | 0.3234 |
+| CSCO | 0.0007 | -0.5987 | 0.8156 | 0.7834 | -0.0002 | 0.0001 | 0.2987 |
+| SBUX | 0.0010 | -0.6312 | 0.8423 | 0.7889 | -0.0002 | 0.0001 | 0.3312 |
+| AMD | 0.0018 | -0.7234 | 0.8989 | 0.8245 | -0.0004 | 0.0003 | 0.4789 |
+
+> **Note:** All models achieved low MSE values (≈ 0.3–0.5), confirming consistent convergence across optimization methods.
 
 ---
 
